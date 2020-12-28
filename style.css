@@ -1,0 +1,212 @@
+:root{
+    --main-blue: #02a0d0;
+    --main-background: #1e2132;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+body {
+    background-color: #898EA2 !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; 
+}
+
+
+/*background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+background-image: linear-gradient(120deg, #a6a9af 0%, #cad0d3 100%);
+*/
+
+/*
+.bar{
+    margin: 4em 0em 0em 5em;
+    display: inline-block;
+}
+
+.btn-search{
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
+    border: none;
+    margin-right: 0em;
+    background-color: var(--main-blue);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.75em;
+    position: relative;
+    left: 0%;
+    right: 0em;
+
+}
+
+.im-search {
+    padding-left: 0em;
+    padding-right: 1em;
+    width: 75em;
+    height: 3em;
+    border: 0;
+    margin: -4px;
+    background-color: var(--main-background);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.75em;
+    position: relative;
+    left: 0em;
+    
+}
+
+.btn-search-loop{
+    height: 3em;
+    display: inline-block;
+    padding-right: 1em;
+    border-right: white;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    margin: -4px;
+    background-color: var(--main-background);
+    color: white;
+    font-size: 0.78em;
+    padding-left: 1em;
+
+}
+
+.img-bar{
+
+
+    width:1.5em;
+    height:1.5em;
+    background-color: var(--main-background);
+    align-self: center;
+
+}
+
+#img-profile{
+    height: 2.5em;
+    width: 2em;
+    display: inline-block;
+    padding: 0.38em 0em 0.2em 0em ;
+    border: 0em 0em 0em 0em;
+    margin: -4px;
+    background-color: var(--main-background);
+    color: white;
+    font-size: 0.78em;
+    padding-left: 1em;
+    align-content: left;
+}
+
+
+.grid{
+
+
+    background-color: tomato;
+}
+*/
+
+/* Creditos de imagen 
+social media
+Imagen de <a href="https://pixabay.com/es/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1233873">Gerd Altmann</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1233873">Pixabay</a>
+
+perro
+
+Imagen de <a href="https://pixabay.com/es/users/moonzigg-6341937/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3822183">moonzigg</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3822183">Pixabay</a>
+
+
+person icon
+<div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+*/
+
+
+
+/*bootstrap */
+
+.bar{
+    margin-top: 3em;
+    height: 2.5em;
+    display: inline-block;
+    background-color: tomato;
+}
+
+#img-profile{
+    width: 20em;
+    background-color: var(--main-background);
+    color: white;
+    border: none;
+    display: inline-block;
+}
+
+.img-bar {
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    height: 1.4em;
+    background-color: var(--main-background);
+    border: none;
+    position: relative;
+
+}
+.name-profile{
+    display: inline-block;
+    position: fixed;
+    align-content: center;
+    padding-top: 0.3em;
+    padding-left: 0.2em;
+
+}
+.btn-search-loop{
+    width: 2em;
+    background-color: var(--main-background);
+    color: white;
+    border: none;
+}
+
+.btn-search{
+    background-color: var(--main-blue);
+    color: white;
+    border: none;    
+}
+
+.in-search{
+    background-color: var(--main-background);
+    border: none;
+}
+
+.aside-section {
+    background-color: lawngreen;
+}
+
+
+/*Date input */
+
+.calender {
+    background-color: var(--main-background);
+    color: var(--main-blue);
+    display: inline-block ;
+    position: relative;
+    height: 15em;
+    width: 15em;
+    border-radius: 1em;
+}
+
+.date-header1{
+    position: relative;
+    margin: 0.1em;
+    display: inline-block;
+    align-content: flex-start;
+}
+
+.date-header2{
+    position: relative;
+    margin: 0.1em;
+    display: inline-block;
+    align-content: center;
+}
+
+.date-header3{
+    position: relative;
+    margin: 0.1em;
+    display: inline-block;
+    align-content: flex-end;
+}
